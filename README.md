@@ -18,7 +18,9 @@ Features
  Installation
 
 git clone git@github.com:brianmangi10808/flatabeer-peter-ngunjiri.git
-Usage
+-
+-[Usage](#usage)
+
 Upon opening the HTML file, the web application will fetch beer data from the included JSON file (db.json) and dynamically generate a user interface with beer information. Beers are displayed in a card layout, including names, images, descriptions, and reviews.
 
 Technologies Used
