@@ -18,10 +18,10 @@
   }
   
   button {
-    background-color: #e18006;
+    background-color: white;
     border: none;
     width: 40%;
-    color: white;
+    color: black;
     font-size: 15px;
     text-align: left;
     padding: 0.5rem;
@@ -61,14 +61,14 @@
     border: none;
     font-size: 15px;
     text-transform: uppercase;
-    background-color: #e18006;
+    background-color: rgb(18, 59, 8);
     color: #fff;
     padding: 7px 10px;
     cursor: pointer;
   }
   
   #review-list li {
-    background-color: #fcef9b;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
