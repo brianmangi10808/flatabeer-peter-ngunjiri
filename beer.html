@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLATABEER</title>
+    <link rel="stylesheet" href="beer.css">
+</head>
+<body>
+       
+  <main>
+    <header>
+        <nav>
+            <h1>Flatabeer</h1>
+            <ul id="beer-list">
+                <li>Oh So Flattening</li>
+                <li>Pilsen Lager</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div>
+            <h1 id="beer-name">Oh So Flattening</h1>
+            <img
+                src="https://images.punkapi.com/v2/4.png"
+                alt="Beer Image"
+                width="40"
+                height="150"
+                id="beer-image"
+            />
+        </div>
+
+        <p>
+            <em id="beer-description">A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.</em>
+        </p>
+
+        <form id="update-container">
+            <label for="update">Description:</label>
+            <textarea id="update-beer"></textarea>
+            <button type="submit">UPDATE BEER</button>
+        </form>
+
+        <div>
+            <form id="review-form">
+                <label for="review">Leave a Review:</label>
+                <textarea id="review"></textarea>
+                <button type="submit">SUBMIT</button>
+                <h3>Customer Reviews</h3>
+                <ul id="review-list">
+                    <li>It's flat! Just the way I like it!!</li>
+                    <li>Is this the real beer, is this just fantasy?</li>
+                </ul>
+            </form>
+        </div>
+    </section>
+</main>
+<script src="beer.js"></script>
+</body>
+</html>
