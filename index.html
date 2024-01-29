@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicen js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <main>
+        <header>
+            <nav>
+                <h1>Brewery Flatabeer</h1>
+                <ul id="beer-list-brewery">
+                    <li>Oh So Flattening Brewery</li>
+                                        <li>Pilsen Lager</li>
+                    <li>Avery Brown Dredge</li>
+                    <li>Electric India</li>
+                 <li>AB:12</li>
+                    <li>Bramling X</li>
+                   <li>Misspent Youth</li>
+                   <li>Arcade Nation</li>
+                   <li>Movember</li>>
+                </ul>
+            </nav>
+        </header>
+        <section class="keg-container">
+            <div class="keg-image-container">
+                <img
+                src="https://i.ibb.co/wQ4G0w1/flatiron-brew.png"
+                alt="Beer Image"
+                width="300"
+                height="450"
+                id="keg-image"
+            />
+            
+            </div>
+            <div class="keg-details">
+                <h1 id="keg-name">Oh So Flattening Brewery</h1>
+                <em id="keg-description">A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.</em>
+    
+                <form id="update-container-keg">
+                    <label for="update-keg">Description:</label>
+                    <textarea id="update-beer-keg"></textarea>
+                    <button type="submit">UPDATE BEER</button>
+                </form>
+            </div>
+    
+            <div class="reviews-keg">
+                <form id="review-form-keg">
+                    <label for="review-keg">Leave a Review:</label>
+                    <textarea id="review-keg"></textarea>
+                    <button type="submit">SUBMIT</button>
+                    <h3>Customer Reviews</h3>
+                    <ul id="review-list-keg">
+                        <li>It's flat! Just the way I like it!!</li>
+                        <li>Is this the real beer, is this just fantasy?</li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
